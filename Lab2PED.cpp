@@ -16,7 +16,7 @@ public:
     }
     void imprimir()
     {
-        cout << nombre << "su nota es: " << notafinal << endl;
+        cout << nombre << " su nota es: " << notafinal << endl;
     }
 };
 
@@ -71,14 +71,13 @@ public:
         }
     }
 
-    float calcularPromedio()
+    float calcularPromedioRecursivo()
     {
         int total = 0;
         float suma = sumarNotas(inicio, total);
         return total ? suma / total : 0;
     }
 };
-
 
 int main()
 {
@@ -91,7 +90,7 @@ int main()
 
     lista.ImprimirLista();
 
-    cout << "Promedio: " << lista.calcularPromedio() << endl;
+    cout << "Promedio de todas las notas: " << lista.calcularPromedioRecursivo() << endl;
 
     return 0;
 };
