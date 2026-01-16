@@ -84,10 +84,10 @@ int main()
 {
     ListaEnlazada lista;
 
-    lista.agregarEstudiante("Juan", 85.5f);
-    lista.agregarEstudiante("Maria", 92.0f);
-    lista.agregarEstudiante("Pedro", 78.5f);
-    lista.agregarEstudiante("Ana", 88.0f);
+    lista.agregarEstudiante("Diana", 86.5f);
+    lista.agregarEstudiante("Andres", 95.0f);
+    lista.agregarEstudiante("Daniel", 68.5f);
+    lista.agregarEstudiante("Samuel", 88.0f);
 
     lista.ImprimirLista();
 
